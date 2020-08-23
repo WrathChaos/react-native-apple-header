@@ -1,6 +1,6 @@
 {
   "name": "react-native-apple-header",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fully customizable Apple Header View for React Native",
   "main": "./build/dist/AppleHeader.js",
   "repository": "git@github.com:WrathChaos/react-native-apple-header.git",

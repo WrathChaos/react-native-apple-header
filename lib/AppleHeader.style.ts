@@ -5,7 +5,7 @@ interface Style {
   avatarContainerStyle: ViewStyle;
 }
 
-export const container = (backgroundColor, borderColor) => {
+export const container = (backgroundColor: string, borderColor: string) => {
   return {
     borderColor,
     backgroundColor,
@@ -18,7 +18,11 @@ export const container = (backgroundColor, borderColor) => {
   };
 };
 
-export const _dateTitleStyle = (fontColor, fontSize, fontWeight) => {
+export const _dateTitleStyle = (
+  fontColor: string,
+  fontSize: number | string,
+  fontWeight: string | number,
+) => {
   return {
     fontSize,
     fontWeight,
@@ -28,7 +32,11 @@ export const _dateTitleStyle = (fontColor, fontSize, fontWeight) => {
   };
 };
 
-export const _largeTitleStyle = (fontColor, fontSize, fontWeight) => {
+export const _largeTitleStyle = (
+  fontColor: string,
+  fontSize: number | string,
+  fontWeight: number | string,
+) => {
   return {
     fontSize,
     fontWeight,
