@@ -15,6 +15,13 @@
         src="assets/Screenshots/React-Native-Apple-Header.png" />
 </p>
 
+# Version 1 🥳 🚀
+
+- Better typing support
+- Better customization
+- Code cleaning
+- Breaking CHANGES!
+
 # Installation
 
 Add the dependency:
